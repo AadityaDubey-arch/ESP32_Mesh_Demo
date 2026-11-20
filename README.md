@@ -30,7 +30,7 @@ Your phone runs ESP32Relay and forwards messages between your friend's phone ove
 
 | Your phone | Your friend's phone |
 | --- | --- |
-| <img src="docs/images/14360.png" alt="ESP32Relay screen showing the Start Laptop Bluetooth Server and Connect to ESP32 buttons" width="260"> | <img src="docs/images/14361.png" alt="Serial Bluetooth Terminal menu showing Devices and Terminal" width="260"> |
+| <img src="docs/images/14362.png" alt="ESP32Relay screen showing the Start Laptop Bluetooth Server and Connect to ESP32 buttons" width="260"> | <img src="docs/images/14361.png" alt="Serial Bluetooth Terminal menu showing Devices and Terminal" width="260"> |
 
 ### Verify the ESP32 connection
 
