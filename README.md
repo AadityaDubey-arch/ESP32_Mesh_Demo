@@ -19,4 +19,15 @@ A Bluetooth messaging project with an Android app, ESP32 firmware, and two Windo
 
 The laptop scripts also support a TCP fallback. Select TCP in both configuration blocks and set the friend's script to the relay laptop's address.
 
-The Android app contains its own Bluetooth Classic and BLE bridge logic. The Windows scripts use the ESP32 USB-to-BLE firmware as a separate path.
+## Connect to the ESP32 from a friend's phone
+
+Your phone runs ESP32Relay and forwards messages between your friend's phone over Bluetooth Classic and the ESP32 over Bluetooth Low Energy (BLE).
+
+1. On your friend's Android phone, install **Serial Bluetooth Terminal** and pair their phone with yours in Bluetooth settings.
+2. On your phone, open **ESP32Relay** and tap **1. Start Laptop Bluetooth Server**. This button also accepts connections from an Android phone.
+3. On your friend's phone, open **Serial Bluetooth Terminal**, tap **Devices**, and select your phone from the paired Bluetooth Classic devices to connect.
+4. On your phone, tap **2. Connect to ESP32**. Once ESP32Relay shows that the ESP32 is connected, your friend can send messages from the **Terminal** screen.
+
+| Your phone | Your friend's phone |
+| --- | --- |
+| <img src="docs/images/14360.png" alt="ESP32Relay screen showing the Start Laptop Bluetooth Server and Connect to ESP32 buttons" width="260"> | <img src="docs/images/14361.png" alt="Serial Bluetooth Terminal menu showing Devices and Terminal" width="260"> |
